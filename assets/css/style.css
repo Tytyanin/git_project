@@ -572,6 +572,7 @@
         grid-column: 1 / span 4;
         display: grid;
         justify-items: center;
+        padding: 0 0 20px;
     }
     
     .btn-set .btn-accent {
@@ -985,7 +986,7 @@
 
     .footer {
         text-align: center;
-        background-color:  #1b2030;
+        background-color:  #2d3651;
         padding: 50px 20px 70px;
     }
 
@@ -1331,6 +1332,7 @@
     @media (max-width: 576px) {
         .btn-set {
             grid-template-columns: 1fr;
+            grid-column: 1 / span 7;
         }
         .btn-set .btn-accent {
             margin: 0;
@@ -1353,39 +1355,39 @@
         }
         .skill-item:nth-of-type(1) {
             grid-row: 1;
-            grid-column: 1 / span 4;
+            grid-column: 1 / span 7;
         }
         .skill-item:nth-of-type(2) {
             grid-row: 2;
-            grid-column: 1 / span 4;
+            grid-column: 1 / span 7;
         }
         .skill-item:nth-of-type(3) {
             grid-row: 3;
-            grid-column: 1 / span 4;
+            grid-column: 1 / span 7;
         }
         .skill-item:nth-of-type(4) {
             grid-row: 4;
-            grid-column: 1 / span 4;
+            grid-column: 1 / span 7;
         }
         .skill-item:nth-of-type(5) {
             grid-row: 5;
-            grid-column: 1 / span 4;
+            grid-column: 1 / span 7;
         }
         .skill-item:nth-of-type(6) {
             grid-row: 6;
-            grid-column: 1 / span 4;
+            grid-column: 1 / span 7;
         }
         .skill-item:nth-of-type(7) {
             grid-row: 7;
-            grid-column: 1 / span 4;
+            grid-column: 1 / span 7;
         }
         .skill-item:nth-of-type(8) {
             grid-row: 8;
-            grid-column: 1 / span 4;
+            grid-column: 1 / span 7;
         }
         .skill-item:nth-of-type(9) {
             grid-row: 9;
-            grid-column: 1 / span 4;
+            grid-column: 1 / span 7;
         }
         .skills .btn-set {
             padding: 0;
@@ -1406,31 +1408,34 @@
         }
         .posts .container {
             grid-template-columns: 1fr;
+            grid-gap: 20px;
         }
         .posts h2 {
-            grid-column: 2 / span 6;
+            grid-column: 1 / span 7;
         }
         .posts-item:nth-of-type(1) {
-            grid-column: 2 / span 6;
+            grid-column: 1 / span 7;
+            grid-row: 2;
         }
         .posts-item:nth-of-type(2) {
-            grid-column: 2 / span 6;
+            grid-column: 1 / span 7;
         }
         .posts-item:nth-of-type(3) {
-            grid-column: 2 / span 6;
+            grid-column: 1 / span 7;
         }
         .posts-item:nth-of-type(4) {
-            grid-column: 2 / span 6;
+            grid-column: 1 / span 7;
         }
         .posts-item:nth-of-type(5) {
-            grid-column: 2 / span 6;
+            grid-column: 1 / span 7;
         }
         .posts-item:nth-of-type(6) {
-            grid-column: 2 / span 6;
+            grid-column: 1 / span 7;
         }
-        /* .posts .btn-accent {
+        .posts .btn-accent {
             min-width: 100%;
-        } */
+            grid-column: 1 / span 7;
+        }
     }
     
 
