@@ -696,6 +696,7 @@
         justify-content: end;
         list-style-type: none;
         margin: 0 -20px 0 0;
+        padding: 0;
     }
     
     .header-navbar__item a {
@@ -889,6 +890,10 @@
         cursor: pointer;
         border-color: #ffffff;
         background-color: #d66926;
+    }
+
+    .form input::placeholder {
+        color: #637588;
     }
      
     .posts h2 {
